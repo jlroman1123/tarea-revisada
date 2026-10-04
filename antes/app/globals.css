@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-uspg-rojo: #aa182b;
+  --color-uspg-navy: #011931;
+  --color-uspg-suave: #edf6fb;
+
+  /* ╔══════════════════════════════════════════════════════╗
+     ║  ARREGLO 5 · El contraste                            ║
+     ║                                                      ║
+     ║  Este gris sobre el fondo claro da 1.45:1. El mínimo ║
+     ║  que exige WCAG (AA) para texto normal es 4.5:1.     ║
+     ║                                                      ║
+     ║  Lighthouse te lo va a marcar en rojo, en la sección ║
+     ║  de Accesibilidad, como «contrast».                  ║
+     ║                                                      ║
+     ║  Cámbialo por algo que sí se lea: #5C6670 da 5.34:1. ║
+     ╚══════════════════════════════════════════════════════╝ */
+  --color-tenue: #c9ced4;   /* TODO (Arreglo 5) */
+}
+
+body {
+  background: var(--color-uspg-suave);
+  color: var(--color-uspg-navy);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}

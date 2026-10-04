@@ -1,0 +1,49 @@
+{
+  "tipo": "Pruebas locales; GA4 simulado sin envío a Google",
+  "checks": [
+    {
+      "prueba": "GA4: inicialización js/config antes de page_view",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "GA4: config una vez y vistas manuales sin vista automática",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "GA4: dos rutas y tarea_creada con parámetros",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Título y descripción presentes",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Estilos aplicados",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "POST inválido no dispara tarea_creada",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "POST correcto emite exactamente un evento",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Contador recibe el total actualizado del servidor",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Tarea se marca con teclado y expone aria-pressed",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Título secundario hereda la plantilla",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Sin errores de hidratación",
+      "resultado": "correcto"
+    }
+  ]
+}

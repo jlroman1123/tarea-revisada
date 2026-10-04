@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-uspg-rojo: #aa182b;
+  --color-uspg-navy: #011931;
+  --color-uspg-suave: #edf6fb;
+
+  
+  --color-tenue: #5C6670;   
+}
+
+body {
+  background: var(--color-uspg-suave);
+  color: var(--color-uspg-navy);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
